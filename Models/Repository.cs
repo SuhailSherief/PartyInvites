@@ -7,7 +7,7 @@
         public static void AddResponse(GuestResponse response)
         {
             Console.WriteLine(response);
-            response.Add(response);
+            responses.Add(response);
         }
     }
 }
